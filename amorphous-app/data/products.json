@@ -1,0 +1,164 @@
+[
+    {
+        "name" : "Sweet Potato",
+        "price" : 150.00,
+        "createdDate" : "2021-10-10T23:53:40.283Z",
+        "updatedDate" : "2021-10-17T23:53:40.283Z",
+        "description" : "These are home grown sweet potatoes, grown free from pesticide use. These are soft and great for making pudding.",
+        "image" : "https://www.gardeningknowhow.com/wp-content/uploads/2020/02/sweet-potatoes.jpg",
+        "unit" : "pound",
+        "business" : {
+            "name" : "Miss Maggie's",
+            "description" : "Miss Maggie's is a family farm business. We personally grow all our products and grow them pesticide and fertilizer free.",
+            "address" : "123 Farm Lane, Orange Hill, Hanover",
+            "telephone" : "876-555-5555",
+            "openingHours" : "09:00",
+            "closingHours" : "17:00",
+            "type" : "Farming",
+            "owner" : {
+                "firstName" : "Maggie",
+                "lastName" : "Smith",
+                "telephone" : "876-555-5555",
+                "email" : "yanique.dickson@gmail.com",
+                "role" : {
+                    "name" : "Seller"
+                }
+            }
+        }
+    },
+    {
+        "name" : "Yellow Yam",
+        "price" : 85.00,
+        "createdDate" : "2021-9-10T23:53:40.283Z",
+        "updatedDate" : "2021-10-12T23:53:40.283Z",
+        "description" : "Rich yellow yam right grown in the plains of St. Elizabeth.",
+        "image" : "https://shopsampars.com/wp-content/uploads/2020/09/yellow-yam-2.jpg",
+        "unit" : "pound",
+        "business" : {
+            "name" : "Ultimate Ground Provision",
+            "description" : "The Ultimate Ground Provision is a family-owned farm location in the cool hills of St. Elizabeth. Our company is led by John Bailey, one of Jamaica's top agricultural engineers.",
+            "address" : "385 Farmlandia, Osbourne, St. Elizabeth",
+            "telephone" : "876-666-6666",
+            "openingHours" : "09:00",
+            "closingHours" : "17:00",
+            "type" : "Farming",
+            "owner" : {
+                "firstName" : "John",
+                "lastName" : "Bailey",
+                "telephone" : "876-666-6666",
+                "email" : "neikidix@gmail.com",
+                "role" : {
+                    "name" : "Seller"
+                }
+            }
+        }
+    },
+    {
+        "name" : "Watermelon",
+        "price" : 95.00,
+        "createdDate" : "2021-9-10T23:53:40.283Z",
+        "updatedDate" : "2021-10-12T23:53:40.283Z",
+        "description" : "Large, juicy and sweet! These watermelons was grown on the farming ground of the Ultimate Ground Provision.",
+        "image" : "https://www.gardeningknowhow.com/wp-content/uploads/2021/05/whole-and-slices-watermelon.jpg",
+        "unit" : "pound",
+        "business" : {
+            "name" : "Ultimate Ground Provision",
+            "description" : "The Ultimate Ground Provision is a family-owned farm location in the cool hills of St. Elizabeth. Our company is led by John Bailey, one of Jamaica's top agricultural engineers.",
+            "address" : "385 Farmlandia, Osbourne, St. Elizabeth",
+            "telephone" : "876-666-6666",
+            "openingHours" : "09:00",
+            "closingHours" : "17:00",
+            "type" : "Farming",
+            "owner" : {
+                "firstName" : "John",
+                "lastName" : "Bailey",
+                "telephone" : "876-666-6666",
+                "email" : "neikidix@gmail.com",
+                "role" : {
+                    "name" : "Seller"
+                }
+            }
+        }
+    },
+    {
+        "name" : "Chicken",
+        "price" : 200.00,
+        "createdDate" : "2021-2-10T23:53:40.283Z",
+        "updatedDate" : "2021-7-12T23:53:40.283Z",
+        "description" : "Done to Order! Your chicken will be prepared and stored one day before the expected delivery date. Our chickens are home grown, reared at the highest standards and in accordance with the Jamaican Poultry Act.",
+        "image" : "https://www.gardeningknowhow.com/wp-content/uploads/2021/05/whole-and-slices-watermelon.jpg",
+        "unit" : "pound",
+        "business" : {
+            "name" : "Sligoville Meats",
+            "description" : "Sligoville Meats is a one stop shop for all things meat, located in the peacefull community of Sligoville, St. Catherine.",
+            "address" : "76 Chicktown, Sligoville, St. Catherine",
+            "telephone" : "876-777-7777",
+            "openingHours" : "09:00",
+            "closingHours" : "17:00",
+            "type" : "Farming",
+            "owner" : {
+                "firstName" : "Reese",
+                "lastName" : "Neverly",
+                "telephone" : "876-777-7777",
+                "email" : "neikidix@gmail.com",
+                "role" : {
+                    "name" : "Seller"
+                }
+            }
+        }
+    },
+    {
+        "name" : "Pork",
+        "price" : 250.00,
+        "createdDate" : "2021-2-10T23:53:40.283Z",
+        "updatedDate" : "2021-7-12T23:53:40.283Z",
+        "description" : "Done to Order! Your pork will be prepared and stored one day before the expected delivery date. Our pigs are home grown, reared at the highest standards and in accordance with the Jamaican Swine Raring Act.",
+        "image" : "https://www.gardeningknowhow.com/wp-content/uploads/2021/05/whole-and-slices-watermelon.jpg",
+        "unit" : "pound",
+        "business" : {
+            "name" : "Sligoville Meats",
+            "description" : "Sligoville Meats is a one stop shop for all things meat, located in the peacefull community of Sligoville, St. Catherine.",
+            "address" : "76 Chicktown, Sligoville, St. Catherine",
+            "telephone" : "876-777-7777",
+            "openingHours" : "09:00",
+            "closingHours" : "17:00",
+            "type" : "Farming",
+            "owner" : {
+                "firstName" : "Reese",
+                "lastName" : "Neverly",
+                "telephone" : "876-777-7777",
+                "email" : "neikidix@gmail.com",
+                "role" : {
+                    "name" : "Seller"
+                }
+            }
+        }
+    },
+    {
+        "name" : "Beef",
+        "price" : 300.00,
+        "createdDate" : "2021-2-10T23:53:40.283Z",
+        "updatedDate" : "2021-7-12T23:53:40.283Z",
+        "description" : "Done to Order! Your beef will be prepared and stored one day before the expected delivery date. Our cows are grass-fed, reared at the highest standards and reared in accordance with the Jamaican Bovinae Act.",
+        "image" : "https://www.gardeningknowhow.com/wp-content/uploads/2021/05/whole-and-slices-watermelon.jpg",
+        "unit" : "pound",
+        "business" : {
+            "name" : "Sligoville Meats",
+            "description" : "Sligoville Meats is a one stop shop for all things meat, located in the peacefull community of Sligoville, St. Catherine.",
+            "address" : "76 Chicktown, Sligoville, St. Catherine",
+            "telephone" : "876-777-7777",
+            "openingHours" : "09:00",
+            "closingHours" : "17:00",
+            "type" : "Farming",
+            "owner" : {
+                "firstName" : "Reese",
+                "lastName" : "Neverly",
+                "telephone" : "876-777-7777",
+                "email" : "neikidix@gmail.com",
+                "role" : {
+                    "name" : "Seller"
+                }
+            }
+        }
+    }
+]

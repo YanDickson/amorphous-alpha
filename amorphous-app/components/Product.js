@@ -5,7 +5,7 @@ export default function Product(props) {
     // ...
   } = props;
   const testMe = () => {
-    console.log("I was tested");
+    console.log("I was tested again");
   };
   return (
     <div onClick={() => testMe()}>

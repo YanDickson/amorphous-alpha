@@ -2,6 +2,7 @@ import axios from "axios"
 import { route } from "../api/products/fetchAllProducts"
 import { useEffect, useState } from "react"
 import { Card, Image, Text, Badge, Button, Group, useMantineTheme, SimpleGrid, Container } from '@mantine/core';
+import Link from 'next/link'
 
 export default function Products() {
     const [products, setProducts] = useState([{ name: 'test' }])
@@ -10,6 +11,12 @@ export default function Products() {
         const products = await axios.get(route)
         setProducts(products.data)
     }
+
+    const formatter = new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD',
+        minimumFractionDigits: 2
+    })
 
     useEffect(() => {
         fetchProducts()
@@ -35,29 +42,26 @@ export default function Products() {
                 >
                     {products ? products.map((product) => {
                         return (
-                            <div style={{ width: 340, margin: 'auto' }}>
-                                <Card shadow="sm" padding="lg">
-                                    <Card.Section>
-                                        <Image src={product.image} height={160} alt="Norway" />
-                                    </Card.Section>
+                            <Link href={`/products/${product.id}`}>
+                                <div style={{ width: 340, margin: 'auto', cursor: 'pointer' }}>
+                                    <Card shadow="sm" padding="lg" style={{ height: 340 }}>
+                                        <Card.Section>
+                                            <Image src={product.image} height={160} alt={`Image of ${product.name}`} />
+                                        </Card.Section>
 
-                                    <Group position="apart" style={{ marginBottom: 5, marginTop: theme.spacing.sm }}>
-                                        <Text weight={500}>{product.name}</Text>
-                                        <Badge color="pink" variant="light">
-                                            On Sale
-                                        </Badge>
-                                    </Group>
+                                        <Group position="apart" style={{ marginBottom: 5, marginTop: theme.spacing.sm }}>
+                                            <Text weight={500}>{product.name}</Text>
+                                            <Badge color="green" variant="light">
+                                                {formatter.format(product.price)}
+                                            </Badge>
+                                        </Group>
 
-                                    <Text size="sm" style={{ color: secondaryColor, lineHeight: 1.5 }}>
-                                        With Fjord Tours you can explore more of the magical fjord landscapes with tours and
-                                        activities on and around the fjords of Norway
-                                    </Text>
-
-                                    <Button variant="light" color="blue" fullWidth style={{ marginTop: 14 }}>
-                                        Book classic tour now
-                                    </Button>
-                                </Card>
-                            </div>
+                                        <Text size="sm" style={{ color: secondaryColor, lineHeight: 1.5 }}>
+                                            {product.description}
+                                        </Text>
+                                    </Card>
+                                </div>
+                            </Link>
                         )
                     }) : <></>}
                 </SimpleGrid>
